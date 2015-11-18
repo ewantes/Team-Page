@@ -200,7 +200,7 @@ footer{
 }
 .footer-nav{
     width: 100%;
-    height: 732px;
+    height: 775px;
     background-color: #efeed5;
     padding-top: 85px;
 }
@@ -270,7 +270,7 @@ footer{
     }
 }
 .footer-contact{
-    width: 90%;
+    width: 100%;
     height: 324px;
     background-color: #17456c;
 }
@@ -281,9 +281,9 @@ footer{
     }
 }
 .table-contact{
-    margin-top: 70px;
-    margin-left: 50px;
-     tr{
+    margin-top: 15%;
+    text-align: left;
+    tr{
         td{
             font-size: 14px;
             font-family: "PTSansRegular";
@@ -315,8 +315,8 @@ footer{
     position: relative;
     img{
         position: absolute;
-        width: 73%;
-        height: 20%;
+        width: 70%;
+        height: 15%;
         top: 192px;
         bottom: 0;
         left: 0;
@@ -354,10 +354,9 @@ footer{
     border: none;
 }
 .input-group{
-    top: 72px;
-    width: 99%;
-    padding-left: 68px;
-    padding-right: 50px;
+    float: right;
+    width: 85%;
+    margin-top: 74px;
 }
 .input-group-addon{
     width: 42px;
@@ -381,7 +380,7 @@ footer{
         border: 0;
     }
 }
-.footer-maps{
+.overlay{
     width: 100%;
     min-height: 178px;
     background-position: center;
@@ -408,30 +407,32 @@ footer{
     }
 }
 .bottop-input{
-    height: 60px;
-    width: 80%;
-    position: absolute;
-    top: 270%;
-    left: 20%;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    img{
+        height: auto;
+    }
+    // position: absolute;
+    // top: 270%;
+    // left: 20%;
     span{
-        position: absolute;
+        // position: absolute;
         display: block;
         width: auto;
-        height: 50%;
         font-size: 14px;
         font-family: "PTSansRegular";
-        margin-bottom: 18px;
         color: #e8ebef;
-    }
+     }
     span:first-child{
-        margin-left: 17%;
-        img{
-            padding-left: 5%;
-        }
+        float: right;
+        margin-top: 8%;
+        
     }
     span:last-child{
-        top: 75%;
-        left: -15%;  
+        float: right;
+        overflow: hidden;
+        margin-top: 4%;
     }
 }
 footer{
@@ -486,16 +487,179 @@ footer{
         }
     }
 }
-.footer-cont{
-    width:  1090px;
-}
 
+.overlay{
+    width: 100%;
+    min-height: 178px;
+    background-position: center;
+    position: absolute;
+    z-index: 5;
+
+}
+#map-canvas {
+    width: 100%;
+    min-height: 178px;
+}
+.footer-nav-right{
+    ul{
+        list-style-type: none;
+    }
+}
 // footer end
+
 
 main{
     height: 1900px;
 }
+@media (min-width: 992px) {
+    .left-header-mn{
+        padding-top: 3%;
+    }
+    #ddmenu{
+        font-size: 1.1em !important;
+    }
+    .right-header-news{
+        nav{
+            #ddmenu{
+                padding-top: 6px;
+            }
+        }
+    }
+    .search .hexagonw{
+        right: 13.5%;
+        top: 25%;
+    }
+    .support span{
+        margin-top: 10px;
+    }
+    .bottop-input span{
+        font-size: 12px;
+    }
+    .active-search-toggle{
+        height: 93px;
+    }
+    .active-search-toggle .input-search{
+        margin-top: 3%;
+    }
+    .active-search-toggle .cross-search{
+        right: 7.5%;
+        top: 34%;
+    }
+    .project-grant {
+            padding-top: 41px;
+            span {
+                font: 700 15px PTSerifBold !important;
+            }
+        }
+    .support{
+    span{
+        font-size:1.24em;
+        }
+    }
+    .projects-head{
+        span{
+            font-size: 10.5px !important;
+        }
+    }
+    .name-of-project{
+        span{
+            font-size: 15px !important;
 
+        }
+    }
+    .project-donor{
+        span{
+            font-size: 13px !important;
+
+        }
+    }
+    .visible-period{
+        span{
+            font-size: 13px !important;
+
+        }
+    }
+    .wrapper{
+        height: 2850px;
+    }
+    .cont-for-button ul li {
+        margin-left: 12.5%;
+    }
+}
+@media (min-width: 1200px) {
+    #ddmenu{
+        font-size: 1.2em !important;
+    }
+    .right-header-news{
+        nav{
+            #ddmenu{
+                padding-top: 20px;
+            }
+        }
+    }
+    .search .hexagonw{
+        right: 6.5%;
+        top: 40%;
+    }
+    .support span{
+        margin-top: 38px;
+    }
+    .bottop-input span{
+        font-size: 15px;
+    }
+    .active-search-toggle{
+        height: 114px;
+    }
+    .active-search-toggle .input-search{
+        margin-top: 3.5%;
+    }
+    .active-search-toggle .cross-search{
+        right: 2.5%;
+        top: 39%;
+    }
+    .project-grant {
+            padding-top: 41px;
+            span {
+                font: 700 18px PTSerifBold !important;
+            }
+        }
+    .support{
+    span{
+        font-size:1.27em;
+        }
+    }
+    .projects-head{
+        span{
+            font-size: 16px !important;
+        }
+    }
+    .name-of-project{
+        span{
+            font-size: 19px !important;
+
+        }
+    }
+    .project-donor{
+        span{
+            font-size: 16px !important;
+
+        }
+    }
+    .visible-period{
+        span{
+            font-size: 16px !important;
+
+        }
+    }
+    .cont-for-button ul li {
+        margin-left: 13.5%;
+    }
+}
+@media (min-width: 1700px){
+    #ddmenu{
+        font-size: 1.4em !important;
+    }
+}
 @media (max-width: @screen-md-max) {}
 @media (max-width: @screen-sm-max) {}
 @media (max-width: @screen-xs-max) {}

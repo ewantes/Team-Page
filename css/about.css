@@ -7288,8 +7288,8 @@ footer {
   text-decoration: none;
 }
 .table-contact {
-  margin-top: 70px;
-  margin-left: 50px;
+  margin-top: 15%;
+  text-align: left;
 }
 .table-contact tr td {
   font-size: 14px;
@@ -7355,8 +7355,8 @@ footer {
   border: none;
 }
 .input-group {
-  width: 99%;
-  padding-left: 35px;
+  float: right;
+  width: 85%;
   margin-top: 74px;
 }
 .input-group-addon {
@@ -7406,29 +7406,28 @@ footer {
   left: 11%;
 }
 .bottop-input {
-  height: 60px;
+  height: auto;
   width: 100%;
-  margin-top: 28px;
+  overflow: hidden;
 }
 .bottop-input img {
-  width: 45%;
   height: auto;
 }
 .bottop-input span {
   display: block;
   width: auto;
-  height: 50%;
   font-size: 14px;
   font-family: "PTSansRegular";
-  margin-bottom: 18px;
   color: #e8ebef;
-  margin-left: 12%;
 }
 .bottop-input span:first-child {
-  margin-left: 41%;
+  float: right;
+  margin-top: 8%;
 }
-.bottop-input span:first-child img {
-  padding-left: 5%;
+.bottop-input span:last-child {
+  float: right;
+  overflow: hidden;
+  margin-top: 4%;
 }
 footer .hexagon {
   position: relative;
@@ -7617,5 +7616,25 @@ footer .hexagon:after {
   }
   .text-right-content {
     margin-top: 6% !important;
+  }
+}
+@media (min-width: 1400px) {
+  .team-cont .gap-hex {
+    margin-left: 10.5% !important;
+  }
+}
+@media (min-width: 1600px) {
+  .team-cont .gap-hex {
+    margin-left: 9.5% !important;
+  }
+}
+@media (min-width: 1700px) {
+  #ddmenu {
+    font-size: 1.4em !important;
+  }
+}
+@media (min-width: 1920px) {
+  .team-cont .gap-hex {
+    margin-left: 7.5% !important;
   }
 }
