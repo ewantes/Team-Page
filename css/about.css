@@ -7014,7 +7014,6 @@ button.close {
   padding-top: 4%;
 }
 .left-header-mn img {
-  width: 100%;
   height: auto;
 }
 .cross-search {
@@ -7206,14 +7205,13 @@ button.close {
   padding: 0;
 }
 footer {
-  height: 1230px;
   width: 100%;
 }
 .footer-nav {
   width: 100%;
-  height: 775px;
   background-color: #efeed5;
-  padding-top: 85px;
+  padding-bottom: 5%;
+  padding-top: 5%;
 }
 .footer-nav-left {
   height: 100%;
@@ -7221,30 +7219,16 @@ footer {
 .footer-nav-left .logo-footer {
   position: relative;
   width: 100%;
-  height: 100px;
-}
-.footer-nav-left .logo-footer img {
-  position: absolute;
-  width: auto;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
+  height: 100%;
+  text-align: center;
+  padding-top: 3%;
 }
 .fb-pic {
   position: relative;
   width: 100%;
-  height: 100px;
-}
-.fb-pic img {
-  position: absolute;
-  width: auto;
-  top: 50px;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
+  height: 100%;
+  text-align: center;
+  padding-top: 20%;
 }
 .footer-pre-logo {
   font-size: 15px;
@@ -7280,8 +7264,12 @@ footer {
 }
 .footer-contact {
   width: 100%;
-  height: 324px;
+  height: 100%;
+  padding-bottom: 6%;
   background-color: #17456c;
+}
+.footer-cont {
+  height: 100%;
 }
 .mail-table a {
   color: #fde127;
@@ -7309,7 +7297,7 @@ footer {
   text-align: center;
   font-weight: 500;
   letter-spacing: 1px;
-  width: 102%;
+  width: 100%;
 }
 .link-info p span {
   color: #fde127;
@@ -7490,9 +7478,6 @@ footer .hexagon:after {
 .footer-nav-right ul {
   list-style-type: none;
 }
-.menu {
-  height: 1500px;
-}
 @media (min-width: 992px) {
   .left-header-mn {
     padding-top: 3%;
@@ -7500,8 +7485,11 @@ footer .hexagon:after {
   #ddmenu {
     font-size: 1.1em !important;
   }
+  .right-header-news nav {
+    margin-right: 19%;
+  }
   .right-header-news nav #ddmenu {
-    padding-top: 6px;
+    padding-top: 2.5%;
   }
   .search .hexagonw {
     right: 13.5%;
@@ -7553,10 +7541,13 @@ footer .hexagon:after {
 }
 @media (min-width: 1200px) {
   #ddmenu {
-    font-size: 1.2em !important;
+    font-size: 1.1em !important;
+  }
+  .right-header-news nav {
+    margin-right: 12%;
   }
   .right-header-news nav #ddmenu {
-    padding-top: 20px;
+    padding-top: 4%;
   }
   .search .hexagonw {
     right: 6.5%;
