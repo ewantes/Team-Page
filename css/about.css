@@ -6852,15 +6852,14 @@ button.close {
 .row-for-margin {
   margin: 0 !important;
 }
-.home-page-header {
-  height: 130px;
-}
 .support {
   position: absolute;
   top: 0;
   right: 0;
   height: 133px;
   width: 10.8%;
+  overflow: hidden;
+  z-index: 5;
 }
 .support a {
   display: block;
@@ -7221,7 +7220,7 @@ footer {
   width: 100%;
   height: 100%;
   text-align: center;
-  padding-top: 3%;
+  padding-top: 9%;
 }
 .fb-pic {
   position: relative;
@@ -7289,11 +7288,13 @@ footer {
 .table-contact tr .mail-table {
   color: #fde127;
 }
+.text-inform-footer {
+  margin-top: 23.5%;
+}
 .link-info p {
   font-size: 14px;
   font-family: "PTSansRegular";
   color: #e8ebef;
-  margin-top: 96px;
   text-align: center;
   font-weight: 500;
   letter-spacing: 1px;
@@ -7305,15 +7306,14 @@ footer {
 .link-info {
   position: relative;
 }
-.link-info img {
-  position: absolute;
-  width: 70%;
-  height: 15%;
-  top: 192px;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
+.link-info .link-info-img {
+  width: 100%;
+  height: 100%;
+  margin-top: 20%;
+}
+.link-info .link-info-img img {
+  width: 100%;
+  height: auto;
 }
 .form-control {
   height: 60px;
@@ -7647,5 +7647,10 @@ footer .hexagon:after {
   }
   .title-news {
     font-size: 22px !important;
+  }
+}
+@media (max-width: 760px) {
+  .text-right-content {
+    display: none;
   }
 }
