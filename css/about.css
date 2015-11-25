@@ -7181,6 +7181,10 @@ button.close {
   font-size: 15px;
   font-weight: bold;
 }
+.contentnews .title-news a {
+  color: #1b5181;
+  text-decoration: none;
+}
 .itemtop {
   margin-top: 19%;
   width: 82%;
@@ -7193,6 +7197,10 @@ button.close {
   font-family: "PTSerif-Bold", serif;
   font-size: 24px;
   font-weight: bold;
+}
+.itemtop span a {
+  color: #1c5281;
+  text-decoration: none;
 }
 .item {
   width: 100%;
